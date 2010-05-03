@@ -15,6 +15,7 @@ Hoe.spec('taka') do
   self.history_file  = 'CHANGELOG.rdoc'
   self.extra_rdoc_files  = FileList['*.rdoc']
   self.extra_deps    = [['nokogiri', '>= 1.4.1']]
+  self.version       = '0.0.2'
 end
 
 file 'vendor/jquery/jquery/dist/jquery.js' do
